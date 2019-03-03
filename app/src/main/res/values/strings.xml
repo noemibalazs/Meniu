@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="name">Queens</string>
+    <string name="istoric">Istoricul comenzilor</string>
+    <string name="all_order">Comenzile Dvs</string>
+    <string name="show">show</string>
+    <string name="launch_label">Queens Menu and Order History</string>
+    <string name="menu_activity">Queen\'s Pub - Meniul zilei</string>
+    <string name="soup">FELUL 1 - SUPA/CIOBA 300 ML</string>
+    <string name="main_course">FELUL 2 - FELUL 2 70G+30G</string>
+    <string name="decor">GARNITURI 150G</string>
+
+    <string name="menu_1">Bean soup</string>
+    <string name="menu_2">Red lentil soup</string>
+    <string name="menu_3">Minestrone</string>
+
+    <string name="menu_4">Lasagna</string>
+    <string name="menu_5">BBQ Box</string>
+    <string name="menu_6">Chicken Box</string>
+
+    <string name="menu_7">Beans</string>
+    <string name="menu_8">Potato</string>
+
+    <string name="date_picker">Date picker</string>
+
+    <string name="supa_1">Soup - 1</string>
+    <string name="supa_2">Soup - 2</string>
+    <string name="supa_3">Soup - 3</string>
+
+    <string name="pret">Price</string>
+
+    <string name="felul_doi_1">Meals -1</string>
+    <string name="felul_doi_2">Meals -2</string>
+    <string name="felul_doi_3">Meals -3</string>
+
+    <string name="garnitura_1">Sides -1</string>
+    <string name="garnitura_2">Sides -2</string>
+
+    <string name="yes">Ok</string>
+    <string name="no">Cancel</string>
+
+    <string name="order_by_day">Comenzile mele pe zile</string>
+
+    <string name="format">Data: %s - supa: %s - felul doi: %s - garnitura: %s</string>
+    <string name="data">Data:</string>
+    <string name="data_template">Sambata 2, februarie 2019</string>
+    <string name="search">Search</string>
+    <string name="search_after_date">Cauta dupa data</string>
+    <string name="search_after_soup">Cauta dupa felul 1</string>
+    <string name="search_after_main">Cauta dupa felul 2</string>
+    <string name="search_after_side">Cauta dupa garnitura</string>
+
+    <string name="admin">Database</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

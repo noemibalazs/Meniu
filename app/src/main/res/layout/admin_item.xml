@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="16dp"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/scroll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_margin="18dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/admin_edit_date"
+                android:hint="@string/date_picker"
+                android:editable="false"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_supa_1"
+                android:hint="@string/supa_1"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:inputType="textCapSentences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_supa_pret_1"
+                android:hint="@string/pret"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/admin_supa_2"
+                android:hint="@string/supa_2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:inputType="textCapSentences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_supa_pret_2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/pret"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/admin_supa_3"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:hint="@string/supa_3"
+                android:textColor="@color/white"
+                android:inputType="textCapSentences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_supa_pret_3"
+                android:hint="@string/pret"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_felul_doi_1"
+                android:textColor="@color/white"
+                android:hint="@string/felul_doi_1"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:inputType="textCapSentences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_felul_doi_pret_1"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                android:hint="@string/pret"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_felul_doi_2"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:hint="@string/felul_doi_2"
+                android:textColor="@color/white"
+                android:inputType="textCapSentences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_felul_doi_pret_2"
+                android:hint="@string/pret"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/admin_felul_doi_3"
+                android:hint="@string/felul_doi_3"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:inputType="textCapSentences"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_felul_doi_pret_3"
+                android:hint="@string/pret"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_garnitura_1"
+                android:hint="@string/garnitura_1"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:inputType="textCapSentences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_garnitura_pret_1"
+                android:hint="@string/pret"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_garnitura_2"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:hint="@string/garnitura_2"
+                android:textColor="@color/white"
+                android:inputType="textCapSentences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/admin_garnitura_pret_2"
+                android:hint="@string/pret"
+                android:textColorHint="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"/>
+
+            <LinearLayout
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_marginEnd="12dp"
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/admin_update"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:text="@string/update"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/admin_cancel"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:text="@string/no"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

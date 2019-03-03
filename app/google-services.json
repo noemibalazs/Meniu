@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "265912047155",
+    "firebase_url": "https://meniu-a480e.firebaseio.com",
+    "project_id": "meniu-a480e",
+    "storage_bucket": "meniu-a480e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265912047155:android:3f2661f6b048d4cb",
+        "android_client_info": {
+          "package_name": "com.noemi.android.meniu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265912047155-jbuo465t821g9197hubi2cb52jfgdvko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDud5KCAqJaCSFCN3vY4Kw7JjHc7dZnjAc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.noemi.android.meniu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.LaunchActivity"
+            android:label="@string/launch_label"
+            android:parentActivityName=".ui.MainActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.MenuActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+
+        <activity
+            android:name=".ui.HistoryActivity"
+            android:label="@string/istoric"
+            android:parentActivityName=".ui.LaunchActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.LaunchActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.AdminActivity"
+            android:label="@string/admin"
+            android:parentActivityName=".ui.LaunchActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.LaunchActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.AllOrdersActivity"
+            android:label="@string/all_order"
+            android:parentActivityName=".ui.HistoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.HistoryActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.DataSearchActivity"
+            android:parentActivityName=".ui.HistoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.HistoryActivity" />
+        </activity>
+
+        <activity android:name=".ui.MainSearchActivity"
+            android:parentActivityName=".ui.HistoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.HistoryActivity" />
+        </activity>
+
+        <activity android:name=".ui.SideSearchActivity"
+            android:parentActivityName=".ui.HistoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.HistoryActivity" />
+        </activity>
+
+        <activity android:name=".ui.SoupSearchActivity"
+            android:parentActivityName=".ui.HistoryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.HistoryActivity" />
+        </activity>
+    </application>
+
+</manifest>
